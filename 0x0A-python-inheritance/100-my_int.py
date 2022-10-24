@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+##!/usr/bin/python3
 """The class MyInt that inherits from int"""
 
 
@@ -11,4 +11,4 @@ class MyInt(int):
 
     def __ne__(self, other):
         """True if two objects(int) are the same"""
-        return int(self) == 
+        return int(self) == other
